@@ -1,0 +1,157 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    letter-spacing: 0.42px;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f7fa;
+    padding: 20px;
+}
+.wrapper {
+    background-color: #fff;
+    display: flex;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.16), 0 10px 10px rgba(0,0,0,0.12);
+}
+/*
+    Sidebar
+*/
+.sidebar {
+    width: 370px;
+    background-color: #1e2939;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.my-photo {
+    width: 370px;
+}
+.sidebar-content {
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.sidebar-title {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.sidebar-link-letter {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.42px;
+    margin-right: 10px;
+}
+.sidebar-contacts-link {
+    opacity: 0.5;
+    color: #6c737e;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.sidebar-contacts-link:hover {
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.6;
+}
+.sidebar-skils-item {
+    color: #ff6b08;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.42px;
+    margin-left: 15px;
+}
+.sidebar-skils-text {
+    color: #9ea3aa;
+}
+/*
+    About Me
+*/
+.about-me-container {
+    padding: 110px 90px;
+}
+.main-info {
+    color: #858585;
+    margin-bottom: 50px;
+}
+.info-title {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.main-title {
+    color: #000000;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 89px;
+    margin-bottom: 20px;
+}
+.main-text {
+    width: 550px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 60px;
+}
+
+.main-info-title {
+    color: #000000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 15px;
+}
+.main-info-link {
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-left: 15px;
+}
+.link-site {
+    color: #949494;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+    margin-left: 8px;
+}
+.info-work-title {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+.title-orange {
+    color: #ff6b08;
+}
+.date {
+    color: #a8a8a8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.work-list {
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 10px 0 25px 15px;
+}
+.study-title {
+    color: #000000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin: 10px 0;
+}
